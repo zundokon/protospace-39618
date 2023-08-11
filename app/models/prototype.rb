@@ -4,5 +4,5 @@ class Prototype < ApplicationRecord
   has_many :comments
   has_one_attached :image
 
-  validates :title, :catch_copy, :concept, presence: true
+  validates :title, :catch_copy, :image, :concept, presence: true 
 end
